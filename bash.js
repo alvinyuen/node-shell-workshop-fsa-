@@ -9,7 +9,8 @@ process.stdout.write('prompt > ');
 process.stdin.on('data', function (data) {
   const args = data.toString().trim().split(/\s+/g); // remove the newline
   const cmd  = args.shift();
-  const cb = function() {
+  const cb = function(result) {
+    process.stdout.write(result);
     process.stdout.write('\nprompt > ');
   };
 

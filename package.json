@@ -1,0 +1,22 @@
+{
+  "name": "node-shell-fsa-workshop",
+  "version": "1.0.0",
+  "description": "",
+  "main": "bash.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/halleycarleton/node-shell-workshop-fsa-.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/halleycarleton/node-shell-workshop-fsa-/issues"
+  },
+  "homepage": "https://github.com/halleycarleton/node-shell-workshop-fsa-#readme",
+  "dependencies": {
+    "request": "^2.78.0"
+  }
+}
